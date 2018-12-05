@@ -1,0 +1,48 @@
+.main{
+  min-height: 100vh;
+
+  .logo-con{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    // padding: 10px;
+    p {
+      height: 100%;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #272c33;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #fff;
+      border-bottom: 1px solid #e8eaec;
+    }
+  }
+  .header-con{
+    position: fixed;
+    width: 100%;
+    background: #272c33;
+    color: #fff;
+    padding: 0;
+    z-index: 101;
+  }
+  .tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background:#F0F0F0;
+    overflow: hidden;
+  }
+  .content-wrapper{
+    margin-top: 64px;
+    background-color: #f7f7f7;
+    transition: margin .4s;
+    padding: 24px;
+  }
+}
+.ivu-menu-item > i, .ivu-menu-submenu-title > i{
+  margin-right: 12px !important;
+}
+.ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+  margin-right: 8px !important;
+}
